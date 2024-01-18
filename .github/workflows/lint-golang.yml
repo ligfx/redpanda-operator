@@ -3,11 +3,7 @@ name: Lint golang
 on:
   push:
     branches:
-      - 'main'
-    paths:
-      - 'src/go/**'
-    tags-ignore:
-      - '**'
+      - '*'
   pull_request:
     paths:
       - 'src/go/**'
